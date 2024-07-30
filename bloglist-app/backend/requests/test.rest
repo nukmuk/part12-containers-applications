@@ -1,0 +1,30 @@
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+    "name": "John Doea",
+    "number": "123456789"
+}
+
+###
+
+GET http://localhost:3001/api/persons
+
+###
+
+GET http://localhost:3001/api/persons/6658c037f985df03734d9e2f
+
+
+###
+
+DELETE http://localhost:3001/api/persons/6658c2b3f985df03734d9e6a
+
+###
+
+PUT http://localhost:3001/api/persons/6658c175f985df03734d9e4c
+Content-Type: application/json
+
+{
+    "name": "asd",
+    "number": "124-34567456456"
+}
